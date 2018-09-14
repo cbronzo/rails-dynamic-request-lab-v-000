@@ -5,6 +5,6 @@ class Student < ActiveRecord::Base
   
   def show
     @student = Student.find(params[:id])
+  end
 end
 
-Post.find(params[:id])
